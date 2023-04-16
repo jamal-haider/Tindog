@@ -1,1 +1,6 @@
-// Remember to import the data and Dog class!
+import dogsData from './data.js'
+
+
+console.log(dogsData)
+
+

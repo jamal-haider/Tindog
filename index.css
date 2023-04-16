@@ -6,7 +6,6 @@ body{
 }
 .container{
     padding: 0 1em;
-    max-width: 568px;
     margin: 0 auto;
     background: linear-gradient(0deg,  rgba(247, 248, 251, 0.879) 0%, rgba(255,255,255,1) 100%);
 
@@ -99,4 +98,10 @@ body{
     -ms-transform: rotate(-30deg);
     -o-transform: rotate(-30deg);
     transform: rotate(-30deg);
+}
+
+@media(min-width: 468px){
+    .container{
+        max-width: 568px;
+    }
 }
