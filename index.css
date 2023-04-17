@@ -28,7 +28,9 @@ body{
 
 .main{
     position: relative;
-}
+    max-width: 508px;
+    margin: 0 auto;
+}   
 
 .img-dog{
     width: 100%;
@@ -100,8 +102,10 @@ body{
     transform: rotate(-30deg);
 }
 
-@media(min-width: 468px){
+@media(max-width: 568px){
     .container{
         max-width: 568px;
+        background-color: red;
     }
 }
+    
